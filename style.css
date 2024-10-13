@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  body {
+    background-color: rgb(211, 211, 211);
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+  }
+  
+  table {
+    margin-left: 300px;
+    margin-top: 10px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    
+  }
+  
+  
+ h1 {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  td {
+   
+    border: 1px ridge ;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    width: 50px;
+    height: 55px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  td:hover  {
+    transform: scale(2.1); 
+  }
+  
+  td.v:hover  {
+    transform: none; 
+  }
+  
+  
+  td .name {
+    font-size: 9px;
+  }
+ 
+  .number {
+    font-size: 7px;
+    margin-left: 4em;
+  }
+
+  .number2 {
+    font-size: 7px;
+    margin-left: 18px;
+  }
+
+  .azul {
+    background-color: #495ca7;
+  }
+  
+  .v {
+    background-color: rgb(211, 211, 211);
+    border: none;
+  }
+  
+  .roxo {
+    background-color: #6e5ba5;
+  }
+  
+  .rosa {
+    background-color: #f382b3;
+  }
+  
+ .laranja {
+    background-color: #f38439;
+  }
+  
+  .azul-claro {
+    background-color: #73c4e6;
+  }
+  
+  .verde {
+    background-color: #42b271;
+  }
+  
+  .amarelo{
+    background-color: #c6b924;
+  }
+  
+  .vermelho {
+    background-color: #ea3434;
+  }
+  
+  .vinho {
+    background-color: #a4243c;
+  }
